@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            text-align: center;
+        }
+        article{
+            margin: 0 20px;
+            background-color: pink;
+        }
+        @media(max-width:920px){
+            section{
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <article>
+            <h2>Liryka</h2>
+            <select name="" id="">
+                <option value="">Pieśń nad pieśniami</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <input type="submit" value="Rezerwuj">
+        </article>
+        <article>
+            <h2>Epika</h2>
+            <select name="" id="">
+                <option value="">Iliada</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <input type="submit" value="Rezerwuj">
+        </article>
+        <article>
+            <h2>Dramat</h2>
+            <select name="" id="">
+                <option value="">Zemsta</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+            <input type="submit" value="Rezerwuj">
+        </article>
+        <article>
+            <h2>Zaległe książki</h2>
+            <ul>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem, ipsum.</li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
